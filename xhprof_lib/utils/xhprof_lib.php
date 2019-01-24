@@ -587,7 +587,7 @@ function xhprof_compute_inclusive_times($raw_data) {
        * calls a unique recursion-depth appended name (for example, foo@1).
        */
       xhprof_error("Error in Raw Data: parent & child are both: $parent");
-      return;
+      //return;
     }
 
     if (!isset($symbol_tab[$child])) {
